@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lyft</title>
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ventor/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="ventor/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <script src="https://use.fontawesome.com/6bff936249.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="assets/js/validator.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-10  col-xs-offset-1">
+                    <div class="col-xs-2 atras">
+                        <a href="registro.html"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                    </div>
+                    <div class="col-xs-8">
+                        <h1>Sign up</h1>
+                        <h5 class="text-center">Join now free ride credit</h5>
+                    </div>
+                </div>
+            </div>
+            <hr>
+    <form action="mapa.html">
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <div class="input-group form-group error">
+                    <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i></span>
+                    <input id="nombre" type="text" class="form-control" placeholder="Name" pattern="(?=.*[a-z]).{4,}" required>
+                </div>
+                <div class="input-group form-group error">
+                    <span class="input-group-addon" id="basic-addon1"><i class="fa fa-envelope-open-o fa-lg" aria-hidden="true"></i></span>
+                    <input id="email" type="email" class="form-control" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+                </div>
+            </div>
+            <h4 class="text-center">we'll send a text to verify your phone</h4>
+                <br><hr><br>
+            <div class="siguiente">
+                <button type="submit" class="siguiente btn btn-primary btn-lg btn-block" onclick="guardarDatos()">Next</button>
+            </div>
+        </div>
+                
+                
+            </form>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
